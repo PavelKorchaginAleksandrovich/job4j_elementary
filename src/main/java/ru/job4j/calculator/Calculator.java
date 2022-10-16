@@ -15,5 +15,11 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fourTimeTwo);
         System.out.println(fiveMinusTwo);
+        int result3 = Calculator.func1(100);
+    }
+
+    public static int func1(int x) {
+        int y = x * x + 1;
+        return y;
     }
 }
